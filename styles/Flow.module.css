@@ -1,0 +1,36 @@
+.flow {
+  margin-top: 20rem;
+  padding: 3rem;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2rem;
+}
+.list {
+  display: flex;
+  gap: 3rem;
+}
+.center {
+  text-align: center;
+}
+.img {
+  width: 100%;
+}
+.text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -15rem;
+}
+.text h1 {
+  font-size: 2rem;
+}
+.text a {
+  text-decoration: underline;
+}

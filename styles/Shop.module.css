@@ -1,0 +1,12 @@
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 2rem;
+  width: 90%;
+}
+.box {
+  border: 1px solid black;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}

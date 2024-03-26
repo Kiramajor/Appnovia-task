@@ -1,0 +1,11 @@
+.main {
+  text-align: center;
+}
+.main input {
+  border-bottom: 1px solid black;
+  width: 70%;
+}
+.fix {
+  display: flex;
+  justify-content: space-around;
+}

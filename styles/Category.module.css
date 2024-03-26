@@ -1,0 +1,22 @@
+.col {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.row {
+  margin-top: -30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  width: 100%;
+}
+.btn {
+  border: 1px solid black;
+  padding: 1rem;
+}
+.text {
+  font-size: 2rem;
+}

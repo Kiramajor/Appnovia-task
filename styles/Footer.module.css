@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.copyright {
+  display: flex;
+  gap: 0.5rem;
+}
+.lang {
+  display: flex;
+  gap: 2rem;
+}
+.lang div {
+  background-color: black;
+  width: 3px;
+  height: 25px;
+}
+.copyright div {
+  background-color: black;
+  width: 70px;
+  height: 20px;
+}

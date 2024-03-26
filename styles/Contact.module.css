@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem;
+  gap: 3rem;
+  border: 1px solid black;
+}
+.col {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.long {
+  background-color: black;
+  width: 70px;
+  height: 20px;
+}
+.short {
+  background-color: black;
+  width: 40px;
+  height: 20px;
+}
+.col input {
+  border-bottom: 1px solid black;
+  width: 90%;
+}
+.col div {
+  display: flex;
+}

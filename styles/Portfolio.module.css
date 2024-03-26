@@ -1,0 +1,12 @@
+.social {
+  margin: 3rem;
+}
+.social h3 {
+  font-size: 2rem;
+}
+.boxes {
+  display: flex;
+  margin: 3rem;
+  gap: 1rem;
+  flex-wrap: nowrap;
+}

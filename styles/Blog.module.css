@@ -1,0 +1,38 @@
+.text {
+  text-align: center;
+  margin-top: 5rem;
+  padding: 5rem;
+}
+.text h1 {
+  font-size: 2rem;
+}
+.boxes {
+  margin: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  column-gap: 1rem;
+}
+.date {
+  background-color: white;
+  border: 1px solid black;
+  width: 50%;
+  padding: 0.2rem;
+}
+.line {
+  background-color: black;
+  width: 40px;
+  height: 10px;
+}
+.post {
+  text-align: center;
+}
+.post a {
+  text-decoration: underline;
+}
+.hr {
+  background-color: black;
+  height: 2px;
+}
+.post p {
+  font-weight: bold;
+}
