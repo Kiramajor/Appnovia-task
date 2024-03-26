@@ -1,7 +1,7 @@
 import Image from "next/image";
-import logo from "../public/img/corsen-main-logo-x2.png.png";
-import arrow from "../public/icons/svg.qodef-svg--button-arrow.png";
-import conStyle from "../styles/Contact.module.css";
+import logo from "../../public/img/corsen-main-logo-x2.png.png";
+import arrow from "../../public/icons/svg.qodef-svg--button-arrow.png";
+import conStyle from "../../styles/Contact.module.css";
 
 export default function Contact() {
   return (

@@ -1,4 +1,4 @@
-import textStyles from "../styles/Text.module.css";
+import textStyles from "../../styles/Text.module.css";
 
 export default function Text() {
   return (

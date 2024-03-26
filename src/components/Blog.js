@@ -16,7 +16,9 @@ export default function Blogs() {
       </div>
       <div className={blogStyle.boxes}>
         <div>
-          <p className={blogStyle.date}>SEPTEMBE 29, 2022</p>
+          <div className={blogStyle.date}>
+            <p>SEPTEMBE 29, 2022</p>
+          </div>
           <Image src={leatherjacket} width={500} height={500} alt="jacket" />
           <div className={blogStyle.post}>
             <p>
@@ -28,7 +30,9 @@ export default function Blogs() {
           </div>
         </div>
         <div>
-          <p className={blogStyle.date}>SEPTEMBE 28, 2022</p>
+          <div className={blogStyle.date}>
+            <p>SEPTEMBER 28, 2022</p>
+          </div>
           <Image src={twin} width={500} height={700} alt="jacket" />
           <div className={blogStyle.post}>
             <p>
@@ -40,7 +44,9 @@ export default function Blogs() {
           </div>
         </div>
         <div>
-          <p className={blogStyle.date}>SEPTEMBE 29, 2022</p>
+          <div className={blogStyle.date}>
+            <p>SEPTEMBER 29, 2022</p>
+          </div>
           <Image src={dude} width={500} height={500} alt="jacket" />
           <div className={blogStyle.post}>
             <p>

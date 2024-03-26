@@ -1,8 +1,7 @@
 import Image from "next/image";
-import flow from "../public/img/div.elementor-background-overlay.png";
-import arrowLeft from "../public/icons/Frame (3).png";
-import logo from "../public/icons/Video-clients-img-5.png.png";
-import flowStyle from "../styles/Flow.module.css";
+import flow from "../../public/img/div.elementor-background-overlay.png";
+import logo from "../../public/icons/Video-clients-img-5.png.png";
+import flowStyle from "../../styles/Flow.module.css";
 
 export default function Flow() {
   return (

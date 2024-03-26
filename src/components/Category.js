@@ -1,7 +1,7 @@
 import Image from "next/image";
-import man from "../public/img/main-home-category-img-4.jpg.png";
-import woman from "../public/img/main-home-category-img-5.jpg.png";
-import catStyle from "../styles/Category.module.css";
+import man from "../../public/img/main-home-category-img-4.jpg.png";
+import woman from "../../public/img/main-home-category-img-5.jpg.png";
+import catStyle from "../../styles/Category.module.css";
 
 export default function Category() {
   return (

@@ -1,12 +1,12 @@
 import Image from "next/image";
-import hand from "../public/img/instagram-img-1.jpg.png";
-import mount from "../public/img/instagram-img-2.jpg.png";
-import three from "../public/img/instagram-img-3.jpg.png";
-import lady from "../public/img/instagram-img-4.jpg.png";
-import couple from "../public/img/instagram-img-5.jpg.png";
-import guy from "../public/img/instagram-img-6.jpg.png";
-import beach from "../public/img/instagram-img-7.jpg.png";
-import portStyle from "../styles/Portfolio.module.css";
+import hand from "../../public/img/instagram-img-1.jpg.png";
+import mount from "../../public/img/instagram-img-2.jpg.png";
+import three from "../../public/img/instagram-img-3.jpg.png";
+import lady from "../../public/img/instagram-img-4.jpg.png";
+import couple from "../../public/img/instagram-img-5.jpg.png";
+import guy from "../../public/img/instagram-img-6.jpg.png";
+import beach from "../../public/img/instagram-img-7.jpg.png";
+import portStyle from "../../styles/Portfolio.module.css";
 
 export default function Portfolio() {
   return (

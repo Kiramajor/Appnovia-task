@@ -1,16 +1,16 @@
 import Image from "next/image";
-import blackJacket from "../public/img/Main-product-list-1.jpg.png";
-import leatherJacket from "../public/img/Main-product-list-2.jpg.png";
-import blackOutfit from "../public/img/Main-product-list-3.jpg.png";
-import tShirt from "../public/img/Main-product-list-4.jpg.png";
-import blackVest from "../public/img/product-new-img-1.jpg.png";
-import ukJacket from "../public/img/Main-product-list-2.jpg (1).png";
-import beigeShirt from "../public/img/Main-product-list-7.jpg.png";
-import blackHat from "../public/img/Main-product-list-8.jpg.png";
-import bookmark from "../public/icons/Frame (1).png";
-import view from "../public/icons/quick-view.svg.png";
-import cart from "../public/icons/cart-button.svg.png";
-import cartStyle from "../styles/Cart.module.css";
+import blackJacket from "../../public/img/Main-product-list-1.jpg.png";
+import leatherJacket from "../../public/img/Main-product-list-2.jpg.png";
+import blackOutfit from "../../public/img/Main-product-list-3.jpg.png";
+import tShirt from "../../public/img/Main-product-list-4.jpg.png";
+import blackVest from "../../public/img/product-new-img-1.jpg.png";
+import ukJacket from "../../public/img/Main-product-list-2.jpg (1).png";
+import beigeShirt from "../../public/img/Main-product-list-7.jpg.png";
+import blackHat from "../../public/img/Main-product-list-8.jpg.png";
+import bookmark from "../../public/icons/Frame (1).png";
+import view from "../../public/icons/quick-view.svg.png";
+import cart from "../../public/icons/cart-button.svg.png";
+import cartStyle from "../../styles/Cart.module.css";
 
 export default function Cart() {
   return (

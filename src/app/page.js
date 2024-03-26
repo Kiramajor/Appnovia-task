@@ -1,16 +1,16 @@
 import Image from "next/image";
-import Header from "../../pages/components/Header";
-import Text from "../../pages/components/Text";
-import Cart from "../../pages/components/Cart";
-import Category from "../../pages/components/Category";
-import Flow from "../../pages/components/Flow";
-import Blog from "../../pages/components/Blog";
-import Newsletter from "../../pages/components/Newsletter";
-import Artists from "../../pages/components/Artists";
-import Portfolio from "../../pages/components/Portfolio";
-import Shop from "../../pages/components/Shop";
-import Contact from "../../pages/components/Contact";
-import Footer from "../../pages/components/Footer";
+import Header from "../components/Header";
+import Text from "../components/Text";
+import Cart from "../components/Cart";
+import Category from "../components/Category";
+import Flow from "../components/Flow";
+import Blog from "../components/Blog";
+import Newsletter from "../components/Newsletter";
+import Artists from "../components/Artists";
+import Portfolio from "../components/Portfolio";
+import Shop from "../components/Shop";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (

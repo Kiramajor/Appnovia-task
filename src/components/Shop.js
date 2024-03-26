@@ -1,9 +1,9 @@
 import Image from "next/image";
-import fast from "../public/icons/svg (3).png";
-import free from "../public/icons/svg (2).png";
-import secure from "../public/icons/svg (1).png";
-import order from "../public/icons/Frame (4).png";
-import shopStyle from "../styles/Shop.module.css";
+import fast from "../../public/icons/svg (3).png";
+import free from "../../public/icons/svg (2).png";
+import secure from "../../public/icons/svg (1).png";
+import order from "../../public/icons/Frame (4).png";
+import shopStyle from "../../styles/Shop.module.css";
 
 export default function Shop() {
   return (

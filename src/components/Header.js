@@ -1,13 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../public/img/corsen-main-logo-x2.png.png";
-import Home from "../../src/app/page";
-import search from "../public/icons/svg (4).png";
-import cart from "../public/icons/cart-button.svg.png";
-import bookmark from "../public/icons/Frame (1).png";
-import profile from "../public/icons/Frame.png";
-import bgImg from "../public/img/rs-module.png";
-import headerStyles from "../styles/Header.module.css";
+import logo from "../../public/img/corsen-main-logo-x2.png.png";
+import search from "../../public/icons/svg (4).png";
+import cart from "../../public/icons/cart-button.svg.png";
+import bookmark from "../../public/icons/Frame (1).png";
+import profile from "../../public/icons/Frame.png";
+import bgImg from "../../public/img/rs-module.png";
+import headerStyles from "../../styles/Header.module.css";
 
 export default function Header() {
   return (
@@ -18,19 +17,19 @@ export default function Header() {
           <Image src={logo} alt="logo" width={200} height={10} />
           <ul className={headerStyles.navlinks}>
             <li>
-              <Link href="../">HOME</Link>
+              <Link href="./">HOME</Link>
             </li>
             <li>
-              <Link href="">PAGES</Link>
+              <Link href="./">PAGES</Link>
             </li>
             <li>
-              <Link href="../">SHOP</Link>
+              <Link href="./Shop">SHOP</Link>
             </li>
             <li>
-              <Link href="../">PORTFOLIO</Link>
+              <Link href="./Portfolio">PORTFOLIO</Link>
             </li>
             <li>
-              <Link href="../">BLOG</Link>
+              <Link href="./Blog">BLOG</Link>
             </li>
           </ul>
         </nav>

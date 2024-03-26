@@ -1,6 +1,6 @@
 import Image from "next/image";
-import arrow from "../public/icons/svg.qodef-svg--button-arrow.png";
-import newStyle from "../styles/Newsletter.module.css";
+import arrow from "../../public/icons/svg.qodef-svg--button-arrow.png";
+import newStyle from "../../styles/Newsletter.module.css";
 
 export default function Newsletter() {
   return (
